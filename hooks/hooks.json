@@ -1,0 +1,1 @@
+{"hooks":{"PostToolUse":[{"hooks":[{"command":"python3 \"${CLAUDE_PLUGIN_ROOT}/hooks/post_write_disclaimer.py\"","timeout":15,"type":"command"}],"matcher":"Write|Edit"}],"UserPromptSubmit":[{"hooks":[{"command":"python3 \"${CLAUDE_PLUGIN_ROOT}/hooks/pre_prompt_compliance.py\"","timeout":10,"type":"command"}],"matcher":""}]}}

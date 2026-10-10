@@ -1,0 +1,1 @@
+{"$schema":"https://json.schemastore.org/claude-code-marketplace.json","name":"lhg-plugs","owner":{"name":"刘洪光"},"plugins":[{"description":"个人税务助手：收入构成梳理、专项附加扣除清单、申报材料 checklist、时间节点提醒（仅做信息整理，仅供参考）","name":"lhg-tax","source":"./"}]}
